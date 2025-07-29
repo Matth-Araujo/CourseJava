@@ -36,9 +36,6 @@ public class Main {
         System.out.println("Basic payment:" + String.format("%.2f",car.getInvoice().getBasicPayment()));
         System.out.println("Tax:" + String.format("%.2f",car.getInvoice().getBasicPayment()));
         System.out.println("Total payment:" + String.format("%.2f",car.getInvoice().getBasicPayment()));
-
-
-
         sc.close();
     }
 }
